@@ -3,9 +3,25 @@ html, body {
     padding: 0;
 }
 .topbar-container{
+    display: flex;
     background-color: orangered;
     color: white;
     height: 50px;
     width: 100%;
+    align-items: center;
+}
 
+.return{
+    margin-left: 20px;
+}
+.page-name{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.right-topbar{
+    margin-left: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
